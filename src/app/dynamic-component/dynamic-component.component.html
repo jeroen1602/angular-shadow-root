@@ -1,0 +1,12 @@
+<div>
+  <label>
+    Use view container ref instead of application ref
+    <input type="checkbox" (change)="checkboxChange($event)">
+  </label>
+  <button (click)="addNormalComponent()">add normal component</button>
+  <button (click)="addNonEncapsulatedComponent()">add non encapsulated component</button>
+  <button (click)="clear()">Clear</button>
+  <div #divElement>
+
+  </div>
+</div>
